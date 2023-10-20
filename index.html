@@ -5,7 +5,7 @@
     </head>
     <body>
         <div id='ruffle'></div>
-        <script src='https://unpkg.com/@ruffle-rs/ruffle'></script>
+        <script src='ruffle.js'></script>
         <script>
 var swfobject = {};
 
@@ -20,7 +20,7 @@ swfobject.embedSWF = function(url, cont, width, height){
     player.load({ url: url });
 }
 
-swfobject.embedSWF('https://steadystatus.github.io/lunar-lander-html5/lunar-lander.swf', 'ruffle', 1300, 700);
+swfobject.embedSWF('lunar-lander.swf', 'ruffle', 1366, 617);
         </script>
     </body>
 </html>
